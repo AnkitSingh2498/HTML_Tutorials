@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+    table,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: 10px;
+    }
+        </style>
+  </head>
+  <body>
+    <h2>Horizontal table</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Class</th>
+        <th>Roll no.</th>
+      </tr>
+      <tr>
+        <td>Ankit</td>
+        <td>Class 12</td>
+        <td>2511451</td>
+      </tr>
+      <tr>
+        <td>Ajay</td>
+        <td>Class 12</td>
+        <td>2511452</td>
+      </tr>
+      <tr>
+        <td>Navneet</td>
+        <td>Class 12</td>
+        <td>2511453</td>
+      </tr>
+    </table>
+<hr>
+<h2>Vertical table</h2>
+<table>
+    <tr>
+        <th>First Name</th>
+        <td>John</td>
+    </tr>
+    <tr>
+        <th>Second Name</th>
+        <td>Doe</td>
+    </tr>
+</table>
+
+<hr>
+    <p>
+        <b>A "table" is made using a set of tags that structure data into rows and columns. <br>
+
+        </b>
+        "table" → starts the table <br>
+
+            "tr" → table row <br>
+            
+            "th" → table header cell (bold by default) <br>
+            
+            "td" → table data cell
+    </p>
+    
+    <br>
+    <h3>Colspan</h3>
+    <p>The colspan attribute in HTML is used to make a table cell span across multiple columns. This is useful when you want a cell to take up more space horizontally.</p>
+    <table>
+        <tr>
+            <th  colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>50</td>
+        </tr>
+    </table>
+
+    <h3>Rowspan</h3>
+    <p>The rowspan attribute is used to make a table cell span across multiple rows instead of columns.</p>
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>John Doe</td>
+
+        </tr>
+        <tr>
+            <th rowspan="2" >Phone</th>
+            <td>25485-85698</td>
+        </tr>
+        <tr>
+            <td>25485-79958</td>
+        </tr>
+    </table>
+  </body>
+</html>
